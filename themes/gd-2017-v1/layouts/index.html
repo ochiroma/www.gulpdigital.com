@@ -1,0 +1,96 @@
+{{ partial "header.html" . }}
+<!-- {{ partial "home/hero.html" . }} -->
+
+{{ range .Data.Pages }}
+{{ if eq .File.LogicalName "hero.md" }}
+<section class="section--white">
+	<div class="content-wrap">
+		<img src="assets/img/gulp-logo.png" class="logo" alt="Gulp Digital">
+		<div class="">
+			{{ .Content }}
+			<ul class="nav-list">
+					<li>
+						<a href="#who-we-are" class="scrollTo">Who we are</a>
+					</li>
+					<li>
+						<a href="#what-we-do" class="scrollTo">What we do</a>
+					</li>
+					<li>
+						<a href="#why-choose-us" class="scrollTo">Why choose us</a>
+					</li>
+					<li>
+						<a href="#get-in-touch" class="scrollTo">Get in touch</a>
+					</li>
+				</ul>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+{{ range .Data.Pages }}
+{{ if eq .File.LogicalName "who-we-are.md" }}
+<section id="who-we-are" class="section--blue who-we-are">
+		<div class="content-wrap">
+			<div class="content-block">
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</div>
+		</div>
+	</section>
+{{ end }}
+{{ end }}
+{{ range .Data.Pages }}
+{{ if eq .File.LogicalName "what-we-do.md" }}
+<section id="what-we-do" class="section--dark-blue what-we-do">
+		<div class="content-wrap">
+			<div class="content-block">
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</div>
+		</div>
+	</section>
+{{ end }}
+{{ end }}
+{{ range .Data.Pages }}
+{{ if eq .File.LogicalName "why-choose-us.md" }}
+<section id="why-choose-us" class="section--white why-choose-us">
+		<div class="content-wrap">
+			<div class="content-block">
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</div>
+		</div>
+	</section>
+{{ end }}
+{{ end }}
+{{ range .Data.Pages }}
+{{ if eq .File.LogicalName "get-in-touch.md" }}
+<section id="get-in-touch" class="section--blue get-in-touch">
+		<div class="content-wrap">
+			<div class="content-block">
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</div>
+		</div>
+	</section>
+{{ end }}
+{{ end }}
+
+
+
+
+
+
+<!-- {{ partial "home/who.html" . }}
+{{ partial "home/what.html" . }}
+{{ partial "home/why.html" . }}
+{{ partial "contact.html" . }} -->
+{{ partial "footer.html" . }}
+
+
+
+
+
+
+
+

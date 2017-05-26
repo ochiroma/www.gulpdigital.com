@@ -1,0 +1,43 @@
+{
+  "name": "gd-2017-v1",
+  "version": "1.0.0",
+  "description": "A Hugo theme for Gulp Digital Ltd that uses NPM as a build tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "hugo:b": "cd ../../ && hugo",
+    "hugo:w": "cd ../../ && hugo server -w",
+    "css:b": "node-sass --output-style compressed -o static/assets/css/ static-src/assets/css/",
+    "css:w": "node-sass --output-style compressed -o static/assets/css/ static-src/assets/css/ --watch",
+    "js:b": "browserify static-src/assets/js/main.js -d -p [minifyify --map bundle.map.json --output static/assets/js/bundle.map.json] > static/assets/js/bundle.js",
+    "js:w": "watchify static-src/assets/js/main.js -o static/assets/js/bundle.js",
+    "jsV:b": "cat static-src/assets/js/vendor/** > static/assets/js/vendor.js",
+    "jsV:w": "onchange './static-src/assets/js/vendor/' -- npm run jsV:b",
+    "img:b": "cpx \"static-src/assets/img/*\" static/assets/img/ -C",
+    "img:w": "cpx \"static-src/assets/img/*\" static/assets/img/ -C -w",
+    "img:x": "copyfiles -u 3 static-src/assets/img/* static/assets/img/",
+    "mkdir": "mkdirp static/assets/css/ static/assets/js/ static/assets/img/",
+    "build": "npm run mkdir && npm run css:b && npm run js:b && npm run jsV:b && npm run img:b && npm run hugo:b",
+    "prewatch": "npm run build",
+    "watch": "parallelshell 'npm run css:w' 'npm run js:w' 'npm run img:w'",
+    "start": "npm run watch",
+    "deploy": "npm run hugo:b && cd ../../ && surge public/ thecodestead.com",
+    "predeploy": "npm run build",
+    "postdeploy": "echo '[GOOD-NEWS] shipped!'"
+  },
+  "author": "Onkar Chiroma",
+  "devDependencies": {
+    "autoprefixer": "^5.1.0",
+    "browserify": "^9.0.3",
+    "lost": "^6.5.0",
+    "minifyify": "^6.4.0",
+    "onchange": "^1.0.0",
+    "parallelshell": "^1.1.1",
+    "poststylus": "^0.2.0",
+    "node-sass": "4.5.3",
+    "watchify": "^3.1.0",
+    "cpx": "^1.5.0",
+    "mkdirp": "^0.5.1"
+  }
+}

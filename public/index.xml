@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>We are Gulp Digital on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in We are Gulp Digital on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get in touch</title>
+      <link>http://example.org/home/get-in-touch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/get-in-touch/</guid>
+      <description>Gulp Digital can help your project blossom into something special that realises your business goals and delights your users, meeting their needs, expectations and then some.
+  hello@gulpdigital.com     Your details Name &amp;#42;  Email &amp;#42;  Phone number &amp;#42;  Company/organisation name &amp;#42;   About the project Budget &amp;#42;  Tell us a bit about the project &amp;#42;    Contact Us      </description>
+    </item>
+    
+    <item>
+      <title>We are Gulp Digital</title>
+      <link>http://example.org/home/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/hero/</guid>
+      <description>We think, design and build delightful products for real users </description>
+    </item>
+    
+    <item>
+      <title>What we do</title>
+      <link>http://example.org/home/what-we-do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/what-we-do/</guid>
+      <description>We are a design, development, strategy and consulting agency. From inception to delivery, we work in an agile way, sharing knowledge and transferring skills as we go.
+Research Helping you better understand your users and performance. We can carry out quantitative and qualitative research, expert reviews, content audits, and usability tests.  Strategy Helping you to focus on your users, their needs, your business goals and the ROI. We create user types, personas, user needs; mapping them to your business goals.</description>
+    </item>
+    
+    <item>
+      <title>Who we are</title>
+      <link>http://example.org/home/who-we-are/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/who-we-are/</guid>
+      <description>We are a small passionate team of multidisciplinary digital superheroes with a user-centric approach. We work directly with clients as well as partner with larger agencies delivering work as part of a blended team.
+From digital services and campaigns to mobile apps and engaging video - we have you covered with our solid team of experts.</description>
+    </item>
+    
+    <item>
+      <title>Why choose us</title>
+      <link>http://example.org/home/why-choose-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/why-choose-us/</guid>
+      <description>We are agile and move quickly, hitting the ground running with an expert team that can help get you through the most challenging of projects. We know how to realise business goals with our user centric approach and technology expertise.
+We typically work to the GDS service manual&amp;rsquo;s approach to agile project delivery:
+Discovery A short collaborative phase where we will research the needs of your service users, understand your business goals, identify success criteria and explore technology.</description>
+    </item>
+    
+  </channel>
+</rss>
