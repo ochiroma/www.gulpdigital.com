@@ -21,7 +21,8 @@
     "build": "npm run mkdir && npm run css:b && npm run js:b && npm run jsV:b && npm run img:b && npm run hugo:b",
     "prewatch": "npm run build",
     "watch": "parallelshell 'npm run css:w' 'npm run js:w' 'npm run img:w'",
-    "start": "npm run watch",
+    "start-old": "npm run watch",
+    "postinstall": "npm run build",
     "deploy": "npm run hugo:b && cd ../../ && surge public/ thecodestead.com",
     "predeploy": "npm run build",
     "postdeploy": "echo '[GOOD-NEWS] shipped!'"
@@ -38,6 +39,7 @@
     "node-sass": "4.5.3",
     "watchify": "^3.1.0",
     "cpx": "^1.5.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "hugo-cli": "^0.4.2"
   }
 }
