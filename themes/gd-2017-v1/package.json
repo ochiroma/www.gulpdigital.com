@@ -16,7 +16,6 @@
     "jsV:w": "onchange './static-src/assets/js/vendor/' -- npm run jsV:b",
     "img:b": "cpx \"static-src/assets/img/*\" static/assets/img/ -C",
     "img:w": "cpx \"static-src/assets/img/*\" static/assets/img/ -C -w",
-    "img:x": "copyfiles -u 3 static-src/assets/img/* static/assets/img/",
     "mkdir": "mkdirp static/assets/css/ static/assets/js/ static/assets/img/",
     "build": "npm run mkdir && npm run css:b && npm run js:b && npm run jsV:b && npm run img:b && npm run hugo:b",
     "prewatch": "npm run build",
