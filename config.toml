@@ -1,4 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-gb"
-title = "My New Hugo Site"
+title = "We are Gulp Digital"
 theme = "gd-2017-v1"
+disableRSS = true
+disableSitemap = true
