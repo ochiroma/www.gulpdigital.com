@@ -39,13 +39,8 @@ body {
 h1 {
 	font-size: 76px;
 	font-weight: 300;
-	font-style: italic;
+	// font-style: italic;
 	// padding-top: 100px;
-
-	.standout {
-		font-weight: 700;
-		font-family: 'Cabin', sans-serif;
-	}
 
 	// .regular {
 	// 	font-weight: 400;
@@ -611,9 +606,45 @@ section:first-of-type .content-wrap {
 	display: none;
 }
 
+.hero {
+	font-style: italic;
+
+	h1 {
+		font-size: 76px;
+		font-weight: 300;
+		margin-bottom: 0;
+	}
+
+	p {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 80px;
+	}
+
+	.lead-alpha {
+		font-size: 66px;
+		font-weight: 300;
+	}
+
+	.lead-beta {
+		// margin-top: 10px;
+		font-size: 60px;
+		display: block;
+	}
+
+}
+
 
 
 //utils
+
+.standout {
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+}
+
+
+
 .bold {
 	font-weight: 700;
 }
