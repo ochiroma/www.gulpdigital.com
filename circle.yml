@@ -2,4 +2,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync public s3://new.gulpdigital.com/ --delete --region eu-west-2
+      - aws s3 sync public s3://www.gulpdigital.com/ --delete --region eu-west-2
