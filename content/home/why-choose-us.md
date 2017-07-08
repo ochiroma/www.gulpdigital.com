@@ -3,9 +3,15 @@ title: Why choose us
 type: partial
 section-class: white
 ---
-We are agile and move quickly, hitting the ground running with an expert team that can help get you through the most challenging of projects. We know how to realise business goals with our user centric approach and technology expertise. 
+If your project has anything to do with **digital** we believe we can ace it.
 
-We typically work to the GDS service manual's approach to <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">agile project delivery</a>:
+We are **quick and reliable** and we promise to offer a solution to meet your **business goals** and your **budget**. 
+
+We are based in **London**, but flex our digital muscles **across the UK**, so location is rarely a problem. 
+
+Oh and we like to **keep things simple**, so we won’t talk too technical (unless you really want us to!)
+
+We like work to the GDS service manual's approach of <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">agile project delivery</a>:
 
 <ul class="process-list">
 	<li id="discovery" class="process-list__item">

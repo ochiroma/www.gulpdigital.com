@@ -610,9 +610,17 @@ section:first-of-type .content-wrap {
 	font-style: italic;
 
 	h1 {
-		font-size: 76px;
 		font-weight: 300;
 		margin-bottom: 0;
+		font-size: 76px;
+
+		@media only screen and (max-width: $break-medium - 1) {
+		font-size: 56px;
+		}
+
+		@media only screen and (max-width: $break-small - 1) {
+			font-size: 30px;
+		}
 	}
 
 	p {
@@ -624,12 +632,28 @@ section:first-of-type .content-wrap {
 	.lead-alpha {
 		font-size: 66px;
 		font-weight: 300;
+
+		@media only screen and (max-width: $break-medium - 1) {
+		font-size: 52px;
+		}
+
+		@media only screen and (max-width: $break-small - 1) {
+			font-size: 28px;
+		}
 	}
 
 	.lead-beta {
 		// margin-top: 10px;
 		font-size: 60px;
 		display: block;
+
+		@media only screen and (max-width: $break-medium - 1) {
+		font-size: 50px;
+		}
+
+		@media only screen and (max-width: $break-small - 1) {
+			font-size: 27px;
+		}
 	}
 
 }

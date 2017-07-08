@@ -3,7 +3,7 @@ title: Get in touch
 type: partial
 section-class: blue
 ---
-<div><p id="contact-Intro" data-switch-default>Gulp Digital can help your project blossom into something special that realises your business goals and delights your users, meeting their needs, expectations and then some.</p>
+<div><p id="contact-Intro" data-switch-default>No job is too big, no budget too small. We’re ready for our next digital mission – just tell us what you need.</p>
 <noscript>
 <div>
 	<a href="mailto:hello@gulpdigital.com">hello@gulpdigital.com</a>
