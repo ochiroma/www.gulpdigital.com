@@ -11,7 +11,7 @@ We are based in **London**, but flex our digital muscles **across the UK**, so l
 
 Oh and we like to **keep things simple**, so we won’t talk too technical (unless you really want us to!)
 
-We like work to the GDS service manual's approach of <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">agile project delivery</a>:
+We typically work to the GDS service manual's approach of <a href="https://www.gov.uk/service-manual/agile-delivery" target="_blank">agile project delivery</a>:
 
 <ul class="process-list">
 	<li id="discovery" class="process-list__item">
