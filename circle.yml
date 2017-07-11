@@ -1,5 +1,12 @@
+general:
+  branches:
+    only:
+     - master # list of branches to build
+     
 deployment:
   prod:
     branch: master
     commands:
       - aws s3 sync public s3://www.gulpdigital.com/ --delete --region eu-west-2
+
+
