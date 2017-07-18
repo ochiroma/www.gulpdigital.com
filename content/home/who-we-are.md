@@ -1,9 +1,10 @@
 ---
-title: Who we are
-type: partial
 section-class: blue
+title: Who we are
+date: 2017-07-18T00:00:00+01:00
+type: partial
 ---
-We are a group of friendly digital superheroes who use our specialist skills to help businesses. A small team of experts with a huge passion for digital, we offer amazing products which work for real users.
+We're a group of friendly digital superheroes who use our specialist skills to help businesses. A small team of experts with a huge passion for digital, we offer amazing products which work for real users.
 
 Got a big project? No problem - we often partner up with larger agencies to increase our powers and deliver even more digital excellence.
 
