@@ -1,7 +1,8 @@
 ---
-title: Why choose us
-type: partial
 section-class: white
+title: Why choose us
+date: 2017-08-02T00:00:00+01:00
+type: partial
 ---
 If your project has anything to do with **digital** we believe we can ace it.
 
@@ -28,6 +29,7 @@ We typically work to the GDS service manual's approach of <a href="https://www.g
 	</li>
 	<li id="live" class="process-list__item">
 		<h3>Live</h3>
-		The work doesn't stop once the service is live. Working with you we will be iteratively improving your service, reacting to new needs and demands and measuring against targets set during earlier phases.
+		The work doesn't stop once the service is live. Working with you, we will be iteratively improving your service, reacting to new needs and demands and measuring against targets set during earlier phases.
 	</li>
 </ul>
+
