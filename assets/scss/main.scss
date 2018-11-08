@@ -25,10 +25,16 @@ $highlight-error: #f0dfde;
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 36px;
+	font-size: 34px;
+
+	@media (max-width: 960px) {
+		font-size: 30px;
+		line-height: 1.6;
+	}
 
 	@media (max-width: 576px) {
 		font-size: 24px;
+		line-height: 1.6;
 	}
 }
 
@@ -51,11 +57,15 @@ h2 {
     margin-bottom: 0;
 	font-size: 64px;
 	margin-bottom: 40px;
+
+	@media (max-width: 576px) {
+		font-size: 50px;
+	}
 	
 	&:after{
 		content: "";
 		width: 150px;
-		height: 5px;
+		height: 4px;
 		background-color: $gulp-green;
 		display: block;
 		margin-top: 40px;
@@ -113,6 +123,7 @@ section {
 		li {
 			padding: 20px;
 			float: left;
+			min-height: 400px;
 		}
 
 		h3 {
@@ -124,6 +135,10 @@ section {
 				display: block;
 				font-weight: 100;
 			}
+		}
+
+		p {
+			margin-bottom: 2em;
 		}
 	}
 	&--block-dark-blue {
