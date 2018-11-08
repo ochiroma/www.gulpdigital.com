@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+$break-small: 768px;
+$break-medium: 992px;
+$text-light: #ffffff;
+// $text-dark: #595959;
+$text-dark: #013855;
+$gulp-green: #2AA608;
+$white: #ffffff;
+$blue: #00517C;
+$dark-blue: #013855;
+$grey: #6A6A6A;
+$highlight-yellow: #fdffcc;
+$error: #a7294b;
+// $text-error: #a44941;
+$highlight-error: #f0dfde;
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 960px;
+	}
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+
+	@media (max-width: 576px) {
+		font-size: 24px;
+	}
+}
+
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0;
+	font-size: 80px;
+	
+	@media (max-width: 576px) {
+		font-size: 60px;
+	}
+}
+
+h2 {
+	font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+	font-size: 64px;
+	margin-bottom: 40px;
+	
+	&:after{
+		content: "";
+		width: 150px;
+		height: 5px;
+		background-color: $gulp-green;
+		display: block;
+		margin-top: 40px;
+
+	}
+}
+
+p {
+    margin-bottom: 5rem;
+}
+
+section {
+    background: #ffffff;
+    background: linear-gradient(#ffffff, #dddddd);
+    padding: 60px 0 100px 0;
+}
+
+
+.intro-lead {
+    // font-size: 40px;
+    // font-weight: 300;
+}
+
+.standout {
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+
+	&--green {
+		color: $gulp-green;
+	}
+}
+
+.standout {
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+
+	&--green {
+		color: $gulp-green;
+	}
+}
+
+.list {
+	&--blocks {
+		list-style: none;
+		padding: 0;
+		font-size: 20px;
+		color: #ffffff;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		li {
+			padding: 20px;
+			float: left;
+		}
+
+		h3 {
+			font-size: 54px;
+			font-weight: 900;
+			font-style: italic;
+
+			span {
+				display: block;
+				font-weight: 100;
+			}
+		}
+	}
+	&--block-dark-blue {
+		background-color: $dark-blue;
+	}
+	&--block-blue {
+		background-color: $blue;
+	}
+	&--block-grey {
+		background-color: $grey;
+	}
+	&--block-green {
+		background-color: $gulp-green;
+	}
+}
+
+// utils
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+  }
