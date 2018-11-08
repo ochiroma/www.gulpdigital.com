@@ -78,9 +78,43 @@ p {
 }
 
 section {
-    background: #ffffff;
+    background: $white;
     background: linear-gradient(#ffffff, #dddddd);
     padding: 60px 0 100px 0;
+}
+
+footer {
+	font-size: 14px;
+	background-color: $dark-blue;
+	color: $white;
+	// font-weight: 100;
+
+	p {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	span {
+		font-weight: 400;
+	}
+}
+
+.logo {
+    width: 200px;
+	height: auto;
+	margin-left: -25px;
+	
+	@media (max-width: 576px) {
+		width: 150px;
+		margin-left: -15px;
+	}
+
+	&-footer {
+		width: 100px;
+		height: auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
 }
 
 
@@ -112,7 +146,7 @@ section {
 		list-style: none;
 		padding: 0;
 		font-size: 20px;
-		color: #ffffff;
+		color: $white;
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
