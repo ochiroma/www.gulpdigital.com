@@ -15,7 +15,8 @@ jobs:
       - run:
           name: "Run Hugo"
           command: |
-            HUGO_ENV=production hugo -v --ignoreCache
+            # HUGO_ENV=production hugo -v --ignoreCache
+            HUGO_ENV=production npm install
       # - run:
       #     name: "Test Website"
       #     command: htmlproofer ~/hugo/public --allow-hash-href --check-html --empty-alt-ignore

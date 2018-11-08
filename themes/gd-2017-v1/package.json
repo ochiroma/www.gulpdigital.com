@@ -4,7 +4,7 @@
   "description": "A Hugo theme for Gulp Digital Ltd that uses NPM as a build tool",
   "scripts": {
     "test": "echo \"No test specified - force pass\" && exit 0",
-    "hugo:b": "cd ../../ && hugo",
+    "hugo:b": "cd ../../ && hugo -v --ignoreCache",
     "hugo:w": "cd ../../ && hugo server -w",
     "css:b": "node-sass --output-style compressed -o static/assets/css/ static-src/assets/css/",
     "css:w": "node-sass --output-style compressed -o static/assets/css/ static-src/assets/css/ --watch",
@@ -21,7 +21,7 @@
     "watch": "parallelshell 'npm run css:w' 'npm run js:w' 'npm run img:w'",
     "start-old": "npm run watch",
     "postinstall": "npm run build",
-    "deploy": "npm run hugo:b && cd ../../ && surge public/ thecodestead.com",
+    "deploy": "npm run hugo:b && cd ../../ && surge public/",
     "predeploy": "npm run build",
     "postdeploy": "echo '[GOOD-NEWS] shipped!'"
   },
