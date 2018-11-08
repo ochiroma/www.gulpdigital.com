@@ -15,7 +15,7 @@ layout: index.html
         <h2>Services</h2>
         <div class="row">
             <div class="col">
-                <p>We are a <span class="standout">consulting</span> and <span class="standout">delivery</span> agency who work from <span class="standout">inception through to end product</span>. We offer a range of digital services for:</p>
+                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>. We offer a range of digital services for:</p>
             </div>
         </div>
         <div class="row">
@@ -37,7 +37,7 @@ layout: index.html
         <h2>Approach</h2>
         <div class="row">
             <div class="col">
-                <p>We work in an <span class="standout">agile</span> way, <span class="standout">sharing knowledge</span> and transferring skills as we go. We follow a <span class="standout">simple process</span> as we work with you to achieve your goals.</p>
+                <p>We work in an <strong>agile</strong> way, <strong>sharing knowledge</strong> and transferring skills as we go. We follow a <strong>simple process</strong> as we work with you to achieve your goals.</p>
             </div>
         </div>
         <div class="row">
@@ -70,7 +70,7 @@ layout: index.html
         <h2>People</h2>
         <div class="row">
             <div class="col">
-                <p>We have a <span class="standout">supporting family culture</span> focussed on returning value, doing the right thing and being <span class="standout">good people</span>. Meet our <span class="standout">lovely team</span> of experts:</p>
+                <p>We have a <strong>supporting family culture</strong> focussed on returning value, doing the right thing and being <strong>good people</strong>. Meet our <strong>lovely team</strong> of experts:</p>
             </div>
         </div>
         <div class="row">
