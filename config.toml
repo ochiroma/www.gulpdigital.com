@@ -1,6 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-gb"
-title = "We are Gulp Digital"
-theme = "gd-2017-v1"
+title = "Gulp Digital"
 disableRSS = true
 disableSitemap = true
