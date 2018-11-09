@@ -84,6 +84,11 @@ a {
 		border-bottom: 1px solid $gulp-green;
 		background-color: $highlight-yellow;
 	}
+
+	&.navbar-brand {
+		background-color: transparent;
+		border-bottom: none;
+	}
 }
 
 p {
