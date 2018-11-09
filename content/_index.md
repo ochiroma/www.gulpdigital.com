@@ -15,20 +15,20 @@ layout: index.html
         <h2>Services</h2>
         <div class="row">
             <div class="col">
-                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>. We offer a range of digital services for:</p>
+                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>, offering a range of digital services.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm">
-                item 1
-            </div>
-            <div class="col-sm">
-                item 2
-            </div>
-            <div class="col-sm">
-                item 3
-            </div>
-        </div>
+        <ul class="row list-unstyled list--icons">
+            <li class="col-md list--icon-public-sector">
+                <h3><a href="#">Government and <br class="">Public Services</a></h3>
+            </li>
+            <li class="col-md list--icon-private-sector">
+                <h3><a href="#">Public and <br class="">Private Companies</a></h3>
+            </li>
+            <li class="col-md list--icon-nfp-sector">
+                <h3><a href="#">Charity and <br class="">Not For Profit</a></h3>
+            </li>
+        </ul>
     </div>
 </section>
 
