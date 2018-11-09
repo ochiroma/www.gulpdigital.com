@@ -101,7 +101,7 @@ strong {
 
 section {
     background: $white;
-    background: linear-gradient(#ffffff, #dddddd);
+    background: linear-gradient(#ffffff, #efefef);
     padding: 60px 0 100px 0;
 }
 
@@ -313,3 +313,6 @@ footer {
 	display: flex;
   }
 
+  .hs-input[type=file] {
+	  background-color: transparent;
+  }

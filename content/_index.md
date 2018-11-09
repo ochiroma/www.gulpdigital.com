@@ -98,4 +98,27 @@ layout: index.html
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Contact</h2>
+                <p>
+                    Need a <strong>trustworthy partner</strong> to help you with your next project? Give us a try, <strong>you won’t be disapointed!</strong>
+                </p>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "2826657",
+                    formId: "088818bc-71bb-45ed-bf26-6a0265f09de8"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 
