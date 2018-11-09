@@ -73,17 +73,28 @@ layout: index.html
                 <p>We have a <strong>supporting family culture</strong> focussed on returning value, doing the right thing and being <strong>good people</strong>. Meet our <strong>lovely team</strong> of experts:</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm">
-                item 1
-            </div>
-            <div class="col-sm">
-                item 2
-            </div>
-            <div class="col-sm">
-                item 3
-            </div>
-        </div>
+        <ul class="row list-unstyled list--team">
+            <li class="col-md-6">
+                <img src="/img/av1.png">
+                <h3>Onkar (Managing Partner)</h3>
+                Technology / UX / Delivery
+            </li>
+            <li class="col-md-6">
+                <img src="/img/av1.png">
+                <h3>Sam (Creative Director)</h3>
+                Creative / Content / Delivery
+            </li>
+            <li class="col-md-6">
+                <img src="/img/av1.png">
+                <h3>Neil (Technology Director)</h3>
+                Technology / Delivery
+            </li>
+            <li class="col-md-6">
+                <img src="/img/av1.png">
+                <h3>Chermaine (Administration)</h3>
+                Finance / Support 
+            </li>
+        </ul>
     </div>
 </section>
 

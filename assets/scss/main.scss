@@ -281,6 +281,27 @@ footer {
 		}
 
 	}
+
+	&--team {
+		font-size: 18px;
+
+		li {
+			margin-bottom: 40px;
+		}
+		h3 {
+			font-size: 18px;
+			font-weight: 700;
+			margin-top: 25px;
+			margin-bottom: 0;
+		}
+		img {
+			width: 100px;
+			height: auto;
+			float: left;
+			margin-right: 15px;
+			border-radius: 50%;
+		}
+	}
 }
 
 
