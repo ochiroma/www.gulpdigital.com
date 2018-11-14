@@ -53,7 +53,7 @@ layout: index.html
         <h2>Experience</h2>
         <div class="row">
             <div class="col-lg-10">
-                <p>Our team has had some <strong>incredible experiences</strong> working in various roles and projects. We’d love to share our <strong>wealth of knowledge</strong> with you.</p>
+                <p>Our team has had some <strong>incredible experiences</strong> working in various roles and projects. We'd love to share our <strong>wealth of knowledge</strong> with you.</p>
             </div>
         </div>
         <ul class="list-unstyled list--logos">
