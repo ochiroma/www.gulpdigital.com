@@ -362,6 +362,19 @@ footer {
 			border-radius: 50%;
 		}
 	}
+
+	&--logos {
+		overflow: hidden;
+
+		li {
+			min-height: 80px;
+			width: 18%;
+			border: 1px solid #999;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+	}
 }
 
 .line {

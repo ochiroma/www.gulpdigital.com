@@ -50,32 +50,28 @@ layout: index.html
 
 <section>
     <div class="container">
-        <h2>People</h2>
+        <h2>Experience</h2>
         <div class="row">
-            <div class="col">
-                <p>We have a <strong>supporting family culture</strong> focussed on returning value, doing the right thing and being <strong>good people</strong>. Meet our <strong>lovely team</strong> of experts:</p>
+            <div class="col-lg-10">
+                <p>Our team has had some <strong>incredible experiences</strong> working in various roles and projects. We’d love to share our <strong>wealth of knowledge</strong> with you.</p>
             </div>
         </div>
-        <ul class="row list-unstyled list--team">
-            <li class="col-md-6">
-                <img src="/img/av1.png">
-                <h3>Onkar (Managing Partner)</h3>
-                Technology / UX / Delivery
+        <ul class="list-unstyled list--logos">
+            <li class="">
             </li>
-            <li class="col-md-6">
-                <img src="/img/av1.png">
-                <h3>Sam (Creative Director)</h3>
-                Creative / Content / Delivery
+            <li class="">
             </li>
-            <li class="col-md-6">
-                <img src="/img/av1.png">
-                <h3>Neil (Technology Director)</h3>
-                Technology / Delivery
+            <li class="">
             </li>
-            <li class="col-md-6">
-                <img src="/img/av1.png">
-                <h3>Chermaine (Administration)</h3>
-                Finance / Support 
+            <li class="">
+            </li>
+            <li class="">
+            </li>
+            <li class="">
+            </li>
+            <li class="">
+            </li>
+            <li class="">
             </li>
         </ul>
     </div>
@@ -84,7 +80,7 @@ layout: index.html
 <section>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-10">
                 <h2>Contact</h2>
                 <p>
                     Need a <strong>trustworthy partner</strong> to help you with your next project? Give us a try, <strong>you won't be disapointed!</strong>
