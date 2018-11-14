@@ -14,50 +14,33 @@ layout: index.html
     <div class="container">
         <h2>Services</h2>
         <div class="row">
-            <div class="col">
-                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>, offering a range of digital services.</p>
-            </div>
-        </div>
-        <ul class="row list-unstyled list--icons">
-            <li class="col-md list--icon-public-sector">
-                <h3><a href="#">Government and <br class="">Public Services</a></h3>
-            </li>
-            <li class="col-md list--icon-private-sector">
-                <h3><a href="#">Public and <br class="">Private Companies</a></h3>
-            </li>
-            <li class="col-md list--icon-nfp-sector">
-                <h3><a href="#">Charity and <br class="">Not For Profit</a></h3>
-            </li>
-        </ul>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <h2>Approach</h2>
-        <div class="row">
-            <div class="col">
-                <p>We work in an <strong>agile</strong> way, <strong>sharing knowledge</strong> and transferring skills as we go. We follow a <strong>simple process</strong> as we work with you to achieve your goals.</p>
+            <div class="col-lg-10">
+                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>, We offer a range of services to support your needs.</p>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <ul class="list--blocks">
-                    <li class="col-md-6 list--block-dark-blue">
-                        <h3>1# <span>Learn</span></h3>
-                        <p>Learn Our research phase; where we define the business and project goals as well as the users and their needs, ensuring we know what the users need and what what the business expects.</p>
+                    <li class="col-md-4 list--block-dark-blue">
+                        <h3>Government and <br class="">Public Services</h3>
+                        <p>
+                            We deliver digital projects for both central and local government departments supporting wider digital transformation programmes. Our services are available on the digital marketplace. <br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </p>
                     </li>
-                    <li class="col-md-6 list--block-green">
-                        <h3>2# <span>Think</span></h3>
-                        <p>Our strategy and planning phase; where we define our strategy and approach. This includes everything from business, delivery and marketting strategies through to creative direction and service blueprinting.</p>
+                    <li class="col-md-4 list--block-green">
+                        <h3>Public and Private <br class="">Companies</h3>
+                        <p>
+                            We offer a range of digital services for public and private companies supporting micro businesses through to large scale organisations we know how to seek and deliver real return on investment. <br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </p>
                     </li>
-                    <li class="col-md-6 list--block-blue">
-                        <h3>3# <span>Design</span></h3>
-                        <p>We take the learning and insights from the research and the defined approaches from the strategy to create content and design user centred solutions.</p>
-                    </li>
-                    <li class="col-md-6 list--block-grey">
-                        <h3>4# <span>Build</span></h3>
-                        <p>Bringing it all together, here is where we create the product be it a website, app or production. Our experts craft accesible, usable digital products for your users.</p>
+                    <li class="col-md-4 list--block-blue">
+                        <h3>Charity and <br class="">Not For Profit</h3>
+                        <p>
+                            We provide a range of digital services for charity and not for profit organisations. We offeri discounted rates and special fixed price services ensuring maximum value and return on investment. <br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </p>
                     </li>
                 </ul>
             </div>

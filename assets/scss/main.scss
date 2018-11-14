@@ -25,15 +25,15 @@ $highlight-error: #f0dfde;
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 34px;
+	font-size: 28px;
 
-	@media (max-width: 960px) {
-		font-size: 30px;
+	@media (max-width: 991px) {
+		font-size: 24px;
 		line-height: 1.6;
 	}
 
-	@media (max-width: 576px) {
-		font-size: 24px;
+	@media (max-width: 768px) {
+		font-size: 20px;
 		line-height: 1.6;
 	}
 }
@@ -93,7 +93,7 @@ a {
 }
 
 p {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 strong {
@@ -215,22 +215,46 @@ footer {
 		li {
 			padding: 20px;
 			float: left;
-			min-height: 400px;
+			// min-height: 400px;
 		}
 
 		h3 {
-			font-size: 54px;
-			font-weight: 900;
+			font-size: 30px;
+			font-weight: 300;
 			font-style: italic;
+
+			@media (max-width: 991px) {
+				font-size: 22px;
+			}
+
+			@media (max-width: 768px) {
+				font-size: 30px;
+			}
 
 			span {
 				display: block;
-				font-weight: 100;
+				font-weight: 900;
 			}
 		}
 
 		p {
+			margin-top: 1em;
 			margin-bottom: 2em;
+
+			@media (max-width: 991px) {
+				font-size: 16px;
+			}
+
+			@media (max-width: 768px) {
+				font-size: 20px;
+			}
+		}
+
+		.btn {
+			margin-top: 2em;
+			padding: 8px 25px;
+			background-color: transparent;
+			border: 2px solid $white;
 		}
 	}
 	&--block-dark-blue {
@@ -350,6 +374,10 @@ footer {
 		margin-top: 40px;
 
 	}
+}
+
+.btn {
+	border-radius: 50px;
 }
 
 
