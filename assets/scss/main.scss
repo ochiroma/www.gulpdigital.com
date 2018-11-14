@@ -32,7 +32,7 @@ body {
 		line-height: 1.6;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 767px) {
 		font-size: 20px;
 		line-height: 1.6;
 	}
@@ -227,7 +227,7 @@ footer {
 				font-size: 22px;
 			}
 
-			@media (max-width: 768px) {
+			@media (max-width: 767px) {
 				font-size: 30px;
 			}
 
@@ -242,10 +242,10 @@ footer {
 			margin-bottom: 2em;
 
 			@media (max-width: 991px) {
-				font-size: 16px;
+				font-size: 14px;
 			}
 
-			@media (max-width: 768px) {
+			@media (max-width: 767px) {
 				font-size: 20px;
 			}
 		}
@@ -283,7 +283,7 @@ footer {
 				padding-top: 15px;
 			}
 
-			@media (max-width: 768px) {
+			@media (max-width: 767px) {
 				padding-top: 5px;
 			}
 		}
@@ -295,7 +295,7 @@ footer {
 				font-size: 16px;
 			}
 
-			@media (max-width: 768px) {
+			@media (max-width: 767px) {
 				font-size: 22px;
 			}
 		}
