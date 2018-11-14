@@ -168,7 +168,7 @@ footer {
 	min-height: 100vh;
 
 	@media (max-width: 576px) {
-		padding-top: 180px;
+		padding-top: 180px!important;
 	}
 
 	h1 {
