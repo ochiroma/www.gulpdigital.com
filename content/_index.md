@@ -12,7 +12,7 @@ layout: index.html
 
 <section>
     <div class="container">
-        <h2>Services</h2>
+        <h2 class="line">Services</h2>
         <div class="row">
             <div class="col-lg-10">
                 <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>, We offer a range of services to support your needs.</p>
@@ -50,7 +50,7 @@ layout: index.html
 
 <section>
     <div class="container">
-        <h2>Products</h2>
+        <h2 class="line">Products</h2>
         <div class="row">
             <div class="col-lg-10">
                 <p>
@@ -83,7 +83,7 @@ layout: index.html
 
 <section>
     <div class="container">
-        <h2>Experience</h2>
+        <h2 class="line">Experience</h2>
         <div class="row">
             <div class="col-lg-10">
                 <p>Our team has had some <strong>incredible experiences</strong> working in various roles and projects. We'd love to share our <strong>wealth of knowledge</strong> with you.</p>
@@ -114,7 +114,7 @@ layout: index.html
     <div class="container">
         <div class="row">
             <div class="col-lg-10">
-                <h2>Contact</h2>
+                <h2 class="line">Contact</h2>
                 <p>
                     Need a <strong>trustworthy partner</strong> to help you with your next project? Give us a try, <strong>you won't be disapointed!</strong>
                 </p>
