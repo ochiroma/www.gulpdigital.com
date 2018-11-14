@@ -87,7 +87,7 @@ layout: index.html
             <div class="col">
                 <h2>Contact</h2>
                 <p>
-                    Need a <strong>trustworthy partner</strong> to help you with your next project? Give us a try, <strong>you won’t be disapointed!</strong>
+                    Need a <strong>trustworthy partner</strong> to help you with your next project? Give us a try, <strong>you won't be disapointed!</strong>
                 </p>
                 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                 <script>
