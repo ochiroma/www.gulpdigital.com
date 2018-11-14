@@ -434,11 +434,12 @@ footer {
 
 .cc-window {
 	.cc-message {
-		min-width: 70%;
+		// min-width: 70%;
+		flex: 1;
 	}
 	.cc-compliance {
-		min-width: 30%;
-		text-align: right;
+		// min-width: 30%;
+		// text-align: right;
 	}
 	a {
 		text-decoration: none;
