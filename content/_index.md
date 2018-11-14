@@ -50,6 +50,39 @@ layout: index.html
 
 <section>
     <div class="container">
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col-lg-10">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit mauris, vestibulum vitae ex vitae, aliquet accumsan lacus.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="list--blocks">
+                    <li class="col-md-6 list--block-contomic">
+                        <h3>Contomic</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit mauris, vestibulum vitae ex vitae, aliquet accumsan lacus. Donec eu feugiat libero. Vestibulum ante ipsum. <br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </p>
+                    </li>
+                    <li class="col-md-6 list--block-sf">
+                        <h3>Salesforce</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit mauris, vestibulum vitae ex vitae, aliquet accumsan lacus. Donec eu feugiat libero. Vestibulum ante ipsum. <br>
+                            <a href="#" class="btn btn-primary">Find out more</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
         <h2>Experience</h2>
         <div class="row">
             <div class="col-lg-10">
