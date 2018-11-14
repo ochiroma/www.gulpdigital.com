@@ -5,7 +5,7 @@ layout: index.html
     <div class="container">
         <div class="">
             <h1>Hello, <br class="d-none d-md-block">we are <span class="standout">Gulp Digital.</span> </h1>
-            <p><span class="intro-lead">A <span class="standout standout--green">group</span> of  <span class="standout standout--green">unique likable people</span> <br class="d-none d-md-block">with years of experience consulting, <br class="d-none d-md-block">and delivering digital products for real people.</span></p>
+            <p class="line">Creative thinking, skilled doing, maximum value.</p>
         </div>
     </div>
 </section>

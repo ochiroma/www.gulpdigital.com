@@ -88,6 +88,7 @@ a {
 	&.navbar-brand {
 		background-color: transparent;
 		border-bottom: none;
+		padding: 0;
 	}
 }
 
@@ -139,10 +140,44 @@ footer {
 	}
 }
 
+.navbar {
+	padding: 0!important;
+	position: absolute!important;
+	top: 0;
+	left: 0;
+	right: 0;
+}
 
-.intro-lead {
-    // font-size: 40px;
-    // font-weight: 300;
+
+.intro {
+	padding-top: 250px;
+	background-color: #333333;
+	background-image: url(/img/gd-bg-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: $white;
+	min-height: 100vh;
+
+	@media (max-width: 576px) {
+		padding-top: 180px;
+	}
+
+	h1 {
+		font-weight: 100;
+		line-height: 1;
+	}
+
+	p {
+		margin-top: 10px;
+		font-size: 60px;
+		font-weight: 100;
+		line-height: 1.35;
+
+		@media (max-width: 576px) {
+			font-size: 40px;
+		}
+	}
 }
 
 .standout {
@@ -301,6 +336,18 @@ footer {
 			margin-right: 15px;
 			border-radius: 50%;
 		}
+	}
+}
+
+.line {
+	&:after{
+		content: "";
+		width: 150px;
+		height: 4px;
+		background-color: $gulp-green;
+		display: block;
+		margin-top: 40px;
+
 	}
 }
 
