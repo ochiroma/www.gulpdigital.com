@@ -38,7 +38,7 @@ layout: index.html
                     <li class="col-md-4 list--block-blue">
                         <h3>Charity and <br class="">Not For Profit</h3>
                         <p>
-                            We provide a range of digital services for charity and not for profit organisations. We offeri discounted rates and special fixed price services ensuring maximum value and return on investment. <br>
+                            We provide a range of digital services for charity and not for profit organisations. We offer discounted rates and special fixed price services ensuring maximum value and return on investment. <br>
                             <a href="#" class="btn btn-primary">Find out more</a>
                         </p>
                     </li>
