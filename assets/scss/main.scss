@@ -433,6 +433,13 @@ footer {
 }
 
 .cc-window {
+	.cc-message {
+		min-width: 70%;
+	}
+	.cc-compliance {
+		min-width: 30%;
+		text-align: right;
+	}
 	a {
 		text-decoration: none;
 		border-bottom-color: $text-dark;
