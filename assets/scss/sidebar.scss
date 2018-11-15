@@ -10,7 +10,7 @@
     right: -300px;
     height: 100vh;
     z-index: 999;
-    background: rgb(207, 207, 207);
+    background: white;
     color: #fff;
     transition: all 0.3s;
     // overflow-y: scroll;
@@ -94,8 +94,8 @@
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: #051825;
+    background: #dddddd;
 }
 
 #sidebar ul li.active>a,
