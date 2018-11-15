@@ -1,7 +1,7 @@
 ---
 layout: index.html
 ---
-<section class="intro">
+<section id="introduction" class="intro">
     <div class="container">
         <div class="">
             <h1>Hello, <br class="d-none d-md-block">we are <span class="standout">Gulp Digital.</span> </h1>
@@ -10,7 +10,7 @@ layout: index.html
     </div>
 </section>
 
-<section>
+<section id="services">
     <div class="container">
         <h2 class="line">Services</h2>
         <div class="row">
@@ -48,7 +48,7 @@ layout: index.html
     </div>
 </section>
 
-<section>
+<section id="products">
     <div class="container">
         <h2 class="line">Products</h2>
         <div class="row">
@@ -81,7 +81,7 @@ layout: index.html
     </div>
 </section>
 
-<section>
+<section id="experience">
     <div class="container">
         <h2 class="line">Experience</h2>
         <div class="row">
@@ -110,7 +110,7 @@ layout: index.html
     </div>
 </section>
 
-<section>
+<section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-10">
