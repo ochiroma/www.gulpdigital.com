@@ -91,12 +91,16 @@ layout: index.html
         </div>
         <ul class="list-unstyled list--logos">
             <li class="">
+                <img src="/img/ukp.png" alt="UK Parliament">
             </li>
             <li class="">
+                <img src="/img/dit.png" alt="Department for International Trade">
             </li>
             <li class="">
+                <img src="/img/ons.png" alt="Office for national Statistics">
             </li>
             <li class="">
+                <img src="/img/cluttons.png" alt="Cluttons">
             </li>
             <li class="">
             </li>

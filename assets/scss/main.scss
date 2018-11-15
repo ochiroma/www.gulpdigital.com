@@ -399,6 +399,11 @@ footer {
 			margin-bottom: 20px;
 			background-color: $white;
 
+			img {
+				width: 100%;
+				height: auto;
+			}
+
 			@media (max-width: 991px) {
 				width: 30%;
 			}
