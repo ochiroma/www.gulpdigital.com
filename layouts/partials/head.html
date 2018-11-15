@@ -5,8 +5,10 @@
     {{ $mainStyle := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify }}
     {{ $styleBundle := slice $cookieconsentStyle $bootstrapStyle $mainStyle | resources.Concat "css/bundle.css" | resources.Fingerprint }}
     
+    {{ $jqueryScript := resources.Get "vendor/jquery3.3.1/dist/js/jquery.slim.min.js" }}
+    {{ $bootstrapScript := resources.Get "vendor/bootstrap4.1.3/dist/js/bootstrap.min.js" }}
     {{ $cookieconsentScript := resources.Get "vendor/cookieconsent3.1.0/dist/js/cookieconsent.min.js" }}
-    {{ $scriptBundle := slice $cookieconsentScript | resources.Concat "js/bundle.js" | resources.Fingerprint }}
+    {{ $scriptBundle := slice $cookieconsentScript $jqueryScript $bootstrapScript | resources.Concat "js/bundle.js" | resources.Fingerprint }}
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="{{ $styleBundle.Permalink }}">
