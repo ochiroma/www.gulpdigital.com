@@ -25,21 +25,21 @@ layout: index.html
                         <h3>Government and <br class="">Public Services</h3>
                         <p>
                             We deliver digital projects for both central and local government departments supporting wider digital transformation programmes. Our services are available on the digital marketplace. <br>
-                            <a href="#contact" class="btn btn-primary">Find out more</a>
+                            <a href="#contact" class="btn btn-primary">Get in touch</a>
                         </p>
                     </li>
                     <li class="col-md-4 list--block-green">
                         <h3>Public and Private <br class="">Companies</h3>
                         <p>
                             We offer a range of digital services for public and private companies supporting micro businesses through to large scale organisations we know how to seek and deliver real return on investment. <br>
-                            <a href="#contact" class="btn btn-primary">Find out more</a>
+                            <a href="#contact" class="btn btn-primary">Get in touch</a>
                         </p>
                     </li>
                     <li class="col-md-4 list--block-blue">
                         <h3>Charity and <br class="">Not For Profit</h3>
                         <p>
                             We provide a range of digital services for charity and not for profit organisations. We offer discounted rates and special fixed price services ensuring maximum value and return on investment. <br>
-                            <a href="#contact" class="btn btn-primary">Find out more</a>
+                            <a href="#contact" class="btn btn-primary">Get in touch</a>
                         </p>
                     </li>
                 </ul>
@@ -64,8 +64,8 @@ layout: index.html
                     <li class="col-md-6 list--block-contomic">
                         <h3>Contomic</h3>
                         <p>
-                            Our specialist content management experience has led to the creation of our API first content platform that simplifies and streamlines the management and delivery of content. Create, review, approve and reuse content across digital channels from our intuitive platform. <br>
-                            <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/126953211663022" class="btn btn-primary" target="_blank">Available on the Digital Marketplace</a>
+                            Available to procure on the Government <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/126953211663022" target="_blank">Digital Marketplace</a>, our API first content platform that simplifies and streamlines the management and delivery of content. Create, review, approve and reuse content across digital channels from our intuitive platform. <br>
+                            <a href="#contact" class="btn btn-primary">Get in touch</a>
                         </p>
                     </li>
                     <li class="col-md-6 list--block-sf">
