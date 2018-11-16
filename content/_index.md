@@ -25,21 +25,21 @@ layout: index.html
                         <h3>Government and <br class="">Public Services</h3>
                         <p>
                             We deliver digital projects for both central and local government departments supporting wider digital transformation programmes. Our services are available on the digital marketplace. <br>
-                            <a href="#" class="btn btn-primary">Find out more</a>
+                            <a href="#contact" class="btn btn-primary">Find out more</a>
                         </p>
                     </li>
                     <li class="col-md-4 list--block-green">
                         <h3>Public and Private <br class="">Companies</h3>
                         <p>
                             We offer a range of digital services for public and private companies supporting micro businesses through to large scale organisations we know how to seek and deliver real return on investment. <br>
-                            <a href="#" class="btn btn-primary">Find out more</a>
+                            <a href="#contact" class="btn btn-primary">Find out more</a>
                         </p>
                     </li>
                     <li class="col-md-4 list--block-blue">
                         <h3>Charity and <br class="">Not For Profit</h3>
                         <p>
                             We provide a range of digital services for charity and not for profit organisations. We offer discounted rates and special fixed price services ensuring maximum value and return on investment. <br>
-                            <a href="#" class="btn btn-primary">Find out more</a>
+                            <a href="#contact" class="btn btn-primary">Find out more</a>
                         </p>
                     </li>
                 </ul>
