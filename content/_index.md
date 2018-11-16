@@ -103,12 +103,16 @@ layout: index.html
                 <img src="/img/cluttons.png" alt="Cluttons">
             </li>
             <li class="">
+                <img src="/img/richmond.png" alt="London Borough of Richmond upon Thames">
             </li>
             <li class="">
+                <img src="/img/bridgend.png" alt="Bridgend County Borough Council">
             </li>
             <li class="">
+                <img src="/img/ford.png" alt="Ford">
             </li>
             <li class="">
+                <img src="/img/talentrover.png" alt="Talent Rover">
             </li>
         </ul>
     </div>
