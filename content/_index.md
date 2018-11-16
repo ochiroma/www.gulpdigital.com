@@ -64,8 +64,8 @@ layout: index.html
                     <li class="col-md-6 list--block-contomic">
                         <h3>Contomic</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit mauris, vestibulum vitae ex vitae, aliquet accumsan lacus. Donec eu feugiat libero. Vestibulum ante ipsum. <br>
-                            <a href="#" class="btn btn-primary">Find out more</a>
+                            Our API first content platform that simplifies and streamlines the management and delivery of content. Create, review, approve and reuse content across digital channels from our intuitive platform. <br>
+                            <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/126953211663022" class="btn btn-primary" target="_blank">Available on the Digital Marketplace</a>
                         </p>
                     </li>
                     <li class="col-md-6 list--block-sf">
