@@ -54,7 +54,7 @@ layout: index.html
         <div class="row">
             <div class="col-lg-10">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit mauris, vestibulum vitae ex vitae, aliquet accumsan lacus.
+                    Whilst we pride ourselves in being technology agnostic, there are some specific product areas that we have specialist knowlede in.
                 </p>
             </div>
         </div>
@@ -64,15 +64,15 @@ layout: index.html
                     <li class="col-md-6 list--block-contomic">
                         <h3>Contomic</h3>
                         <p>
-                            Our API first content platform that simplifies and streamlines the management and delivery of content. Create, review, approve and reuse content across digital channels from our intuitive platform. <br>
+                            Our specialist content management experience has led to the creation of our API first content platform that simplifies and streamlines the management and delivery of content. Create, review, approve and reuse content across digital channels from our intuitive platform. <br>
                             <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/126953211663022" class="btn btn-primary" target="_blank">Available on the Digital Marketplace</a>
                         </p>
                     </li>
                     <li class="col-md-6 list--block-sf">
                         <h3>Salesforce</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit mauris, vestibulum vitae ex vitae, aliquet accumsan lacus. Donec eu feugiat libero. Vestibulum ante ipsum. <br>
-                            <a href="#" class="btn btn-primary">Find out more</a>
+                            We have specialist Salesforce experience. From implimentation and configuration through to custom APEX coding and user focussed communities; our project managers, designers and developers can help you through the most challenging projects.  <br>
+                            <a href="#contact" class="btn btn-primary">Get in touch</a>
                         </p>
                     </li>
                 </ul>
