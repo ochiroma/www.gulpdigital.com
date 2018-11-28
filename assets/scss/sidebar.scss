@@ -11,10 +11,11 @@
     height: 100vh;
     z-index: 999;
     background: white;
-    color: #fff;
+    color: #013855;
     transition: all 0.3s;
     // overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
 }
 
 #sidebar.active {
@@ -98,6 +99,25 @@
     background: #dddddd;
 }
 
+#sidebar ul li ul {
+    padding: 0;
+}
+
+#sidebar ul li ul li a {
+    font-size: 15px;
+    padding-left: 40px;
+
+    &::before {
+        content: "";
+        width: 10px;
+        height: 1px;
+        background: #013855;
+        display: block;
+        margin: 10px 0 0 -20px;
+        position: absolute;
+    }
+}
+
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
@@ -118,8 +138,8 @@ a[data-toggle="collapse"] {
 
 ul ul a {
     // font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #6d7fcc;
+    // padding-left: 30px !important;
+    // background: #6d7fcc;
 }
 
 ul.CTAs {
