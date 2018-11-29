@@ -371,13 +371,16 @@ footer {
 	}
 
 	&--icons {
-		
+		    
 		li {
-			padding-left: 90px;
+			padding-left: 70px;
 			margin-bottom: 40px;
 			position: relative;
 			min-height: 80px;
 			padding-top: 10px;
+			font-size: 16px;
+			padding-top: 30px;
+			line-height: 1;
 			
 			@media (max-width: 991px) {
 				padding-top: 15px;
@@ -439,7 +442,102 @@ footer {
 				opacity: 0.6;
 			}
 		}
-
+		&-user {
+			&::before {
+				content: url(/icons/user.svg);
+				display: block;
+				width: 65px;
+				height: auto;
+				position: absolute;
+				left: 22px;
+				top: 22px;
+				opacity: 0.6;
+			}
+		}
+		&-team {
+			&::before {
+				content: url(/icons/team.svg);
+				display: block;
+				width: 70px;
+				height: auto;
+				position: absolute;
+				left: 2px;
+				top: 12px;
+				opacity: 0.6;
+			}
+		}
+		&-goal {
+			&::before {
+				content: url(/icons/goal.svg);
+				display: block;
+				width: 50px;
+				height: auto;
+				position: absolute;
+				left: 12px;
+				top: 15px;
+				opacity: 0.6;
+			}
+		}
+		&-discovery {
+			&::before {
+				content: url(/icons/discovery.svg);
+				display: block;
+				width: 60px;
+				height: auto;
+				position: absolute;
+				left: 12px;
+				top: 15px;
+				opacity: 0.6;
+			}
+		}
+		&-alpha {
+			&::before {
+				content: url(/icons/alpha.svg);
+				display: block;
+				width: 40px;
+				height: auto;
+				position: absolute;
+				left: 12px;
+				top: 28px;
+				opacity: 0.6;
+			}
+		}
+		&-beta {
+			&::before {
+				content: url(/icons/beta.svg);
+				display: block;
+				width: 50px;
+				height: auto;
+				position: absolute;
+				left: 12px;
+				top: 30px;
+				opacity: 0.6;
+			}
+		}
+		&-live {
+			&::before {
+				content: url(/icons/live.svg);
+				display: block;
+				width: 65px;
+				height: auto;
+				position: absolute;
+				left: 7px;
+				top: 15px;
+				opacity: 0.6;
+			}
+		}
+		&-support {
+			&::before {
+				content: url(/icons/support.svg);
+				display: block;
+				width: 50px;
+				height: auto;
+				position: absolute;
+				left: 12px;
+				top: 22px;
+				opacity: 0.6;
+			}
+		}
 	}
 
 	&--team {

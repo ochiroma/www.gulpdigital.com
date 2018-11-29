@@ -18,14 +18,16 @@
     <div class="container">
         <h2 class="line">Services</h2>
         <div class="row">
-            <div class="col-lg-10">
-                <ul class="list-unstyled row">
-                	<li class="col-md-5"><i class="fa-2x fas fa-users d-block"></i>Individual specialists</li>
-                	<li class="col-md-5"><i class="fa-2x fas fa-bullseye d-block"></i>Teams and outcomes</li>
-                	<li class="col-md-5">Discovery projects</li>
-                	<li class="col-md-5">Alpha projects</li>
-                	<li class="col-md-5">Beta projects</li>
-                	<li class="col-md-5">Live projects</li>
+            <div class="col-lg-12">
+                <ul class="list-unstyled row list--icons">
+                	<li class="col-md-3 list--icon-user">Individual <br>specialists</li>
+                	<li class="col-md-3 list--icon-team">Delivery <br>teams</li>
+                    <li class="col-md-3 list--icon-goal">Delivery <br>outcomes</li>
+                	<li class="col-md-3 list--icon-discovery">Discovery <br>projects</li>
+                	<li class="col-md-3 list--icon-alpha">Alpha <br>projects</li>
+                	<li class="col-md-3 list--icon-beta">Beta <br>projects</li>
+                	<li class="col-md-3 list--icon-live">Live <br>projects</li>
+                    <li class="col-md-3 list--icon-support">Service <br>support</li>
                 </ul>
             </div>
         </div>
@@ -49,7 +51,7 @@
                 <table>
                 	<tr>
                 		<th>Activity</th>
-                		<th>Rate</th>
+                		<th>Typical rate</th>
                 	</tr>
                 	<tr>
                 		<td>
