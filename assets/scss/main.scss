@@ -27,7 +27,7 @@ $highlight-error: #f0dfde;
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 28px;
+	font-size: 24px;
 
 	@media (max-width: 991px) {
 		font-size: 24px;
@@ -81,7 +81,7 @@ a {
 	// padding-bottom: 2px;
 	color: $dark-blue;
 
-	&:hover {
+	&:hover, &:active, &:focus {
 		text-decoration: none;
 		border-bottom: 1px solid $gulp-green;
 		background-color: $highlight-yellow;
@@ -112,6 +112,37 @@ section {
 	}
 }
 
+table {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.3;
+	border: 1px solid $gulp-green;
+
+	tr{
+		border-bottom: 1px solid $gulp-green;
+	}
+	td {
+		padding: 10px;
+		border-right: 1px solid $gulp-green;
+		width: 10%;
+		vertical-align: top;
+	}
+	th {
+		padding: 10px;
+		background: $gulp-green;
+		color: $white;
+		vertical-align: top;
+		font-weight: 400;
+	}
+	.table-supporting-content {
+		display: block;
+		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: 10px;
+		/*line-height: 1.3;*/
+	}
+}
+
 footer {
 	font-size: 14px;
 	background-color: $dark-blue;
@@ -130,6 +161,10 @@ footer {
 
 #content {
 	// padding-top: 120px;
+}
+
+#contact {
+	background: $white;
 }
 
 .logo {
@@ -181,6 +216,15 @@ footer {
 		@media (max-width: 576px) {
 			line-height: 1.3;
 			font-size: 54px;
+		}
+	}
+
+	a {
+		color: #55a5e8;
+		border-color: #55a5e8;
+
+		&:hover {
+			color: $dark-blue;
 		}
 	}
 
@@ -294,7 +338,7 @@ footer {
 		}
 
 		.btn {
-			margin-top: 2em;
+			/*margin-top: 2em;*/
 			padding: 8px 25px;
 			background-color: transparent;
 			border: 2px solid $white;
@@ -465,9 +509,14 @@ footer {
 }
 
 .btn {
+	margin-top: 2em;
 	border-radius: 50px;
+	background-color: transparent;
+	border: 2px solid $gulp-green;
+	color: $gulp-green;
 
 	&:hover {
+		border: 2px solid $gulp-green;
 		background-color: rgba(0,0,0,0.3);
 	}
 }

@@ -15,7 +15,7 @@ layout: index.html
         <h2 class="line">Services</h2>
         <div class="row">
             <div class="col-lg-10">
-                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency who work from <strong>inception through to end product</strong>, We offer a range of services to support your needs.</p>
+                <p>We are a <strong>consulting</strong> and <strong>delivery</strong> agency, from <strong>inception through to end product</strong> we offer a range of services to support your needs.</p>
             </div>
         </div>
         <div class="row">
