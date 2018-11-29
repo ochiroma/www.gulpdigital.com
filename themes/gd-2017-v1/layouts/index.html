@@ -3,7 +3,7 @@
 
 {{ range .Data.Pages }}
 {{ if eq .File.LogicalName "hero.md" }}
-<section id="hero" class="section--white hero">
+<section id="hero" class="section hero">
 	<div class="content-wrap">
 		<img src="assets/img/gulp-logo.png" class="logo" alt="Gulp Digital">
 		<div class="">
@@ -29,7 +29,7 @@
 {{ end }}
 {{ range .Data.Pages }}
 {{ if eq .File.LogicalName "who-we-are.md" }}
-<section id="who-we-are" class="section--blue who-we-are">
+<section id="who-we-are" class="section who-we-are">
 		<div class="content-wrap">
 			<div class="content-block">
 				<h2>{{ .Title }}</h2>
@@ -41,7 +41,7 @@
 {{ end }}
 {{ range .Data.Pages }}
 {{ if eq .File.LogicalName "what-we-do.md" }}
-<section id="what-we-do" class="section--dark-blue what-we-do">
+<section id="what-we-do" class="section what-we-do">
 		<div class="content-wrap">
 			<div class="content-block">
 				<h2>{{ .Title }}</h2>
@@ -53,7 +53,7 @@
 {{ end }}
 {{ range .Data.Pages }}
 {{ if eq .File.LogicalName "why-choose-us.md" }}
-<section id="why-choose-us" class="section--white why-choose-us">
+<section id="why-choose-us" class="section why-choose-us">
 		<div class="content-wrap">
 			<div class="content-block">
 				<h2>{{ .Title }}</h2>
@@ -65,7 +65,7 @@
 {{ end }}
 {{ range .Data.Pages }}
 {{ if eq .File.LogicalName "get-in-touch.md" }}
-<section id="get-in-touch" class="section--blue get-in-touch">
+<section id="get-in-touch" class="section get-in-touch">
 		<div class="content-wrap">
 			<div class="content-block">
 				<h2>{{ .Title }}</h2>

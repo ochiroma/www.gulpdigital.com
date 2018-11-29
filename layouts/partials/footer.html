@@ -1,0 +1,94 @@
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <h2 class="line">Contact</h2>
+                <p>
+                    Need a <strong>trustworthy partner</strong> to help you with your next project? Give us a try, <strong>you won't be disapointed!</strong>
+                </p>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                hbspt.forms.create({
+                    portalId: "2826657",
+                    formId: "088818bc-71bb-45ed-bf26-6a0265f09de8"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    <span>&copy;Copyright 2018 Gulp Digital Ltd</span> <br>
+                    Company number : <span>07294521</span> <br>
+                    Vat number : <span>192 2489 85</span> <br>
+                    D-U-N-S Number : <span>21-678-4365</span>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="/img/gulp-logo-white.png" class="logo-footer">
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="overlay"></div>
+<script type="text/javascript">
+   $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $(this).blur();
+                $(this).toggleClass('is-active');
+                $('#sidebar').toggleClass('active');
+                $('.overlay').toggleClass('active');
+                // $('.collapse.in').toggleClass('in');
+                // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+
+            $('.overlay, #sidebar ul li a').on('click', function () {
+                $(this).blur();
+                $('#sidebarCollapse').removeClass('is-active');
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            // Select all links with hashes
+            $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                // On-page links
+                if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+                && 
+                location.hostname == this.hostname
+                ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                    scrollTop: target.offset().top
+                    }, 1000, function() {
+                    // Callback after animation
+                    // Must change focus!
+                    var $target = $(target);
+                    $target.focus();
+                    if ($target.is(":focus")) { // Checking if the target was focused
+                        return false;
+                    } else {
+                        $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                        $target.focus(); // Set focus again
+                    };
+                    });
+                }
+                }
+            });
+        });
+</script>

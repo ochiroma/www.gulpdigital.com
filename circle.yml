@@ -1,12 +1,31 @@
-general:
-  branches:
-    only:
-     - master # list of branches to build
-     
-deployment:
-  prod:
-    branch: master
-    commands:
-      - aws s3 sync public s3://www.gulpdigital.com/ --delete --region eu-west-2
-
-
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.50
+    working_directory: ~/hugo
+    environment:
+    steps:
+      - checkout
+      - run:
+          name: "Install AWS CLI (first install pip, the Python package manager)"
+          command: |
+            apk add --update python python-dev py-pip build-base
+            pip install awscli
+      - run:
+          name: "Run Hugo"
+          command: |
+            HUGO_ENV=production hugo -v --ignoreCache
+            # HUGO_ENV=production npm install
+      - run:
+          name: "Test Website"
+          command: htmlproofer ~/hugo/public --allow-hash-href --check-html --empty-alt-ignore
+      - add_ssh_keys
+      - deploy:
+          command: |
+            aws s3 sync ~/hugo/public s3://new.gulpdigital.com/ --delete --region eu-west-2
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
