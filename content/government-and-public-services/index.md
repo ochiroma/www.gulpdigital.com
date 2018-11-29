@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section>
+<!-- <section>
     <div class="container">
         <h2 class="line">Rates</h2>
         <div class="row">
@@ -74,4 +74,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
