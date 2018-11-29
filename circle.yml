@@ -23,7 +23,7 @@ jobs:
       - add_ssh_keys
       - deploy:
           command: |
-            aws s3 sync ~/hugo/public s3://new.gulpdigital.com/ --delete --region eu-west-2
+            aws s3 sync ~/hugo/public s3://www.gulpdigital.com/ --delete --region eu-west-2
 workflows:
   version: 2
   build:
