@@ -22,17 +22,17 @@ layout: index.html
             <div class="col">
                 <ul class="list--blocks">
                     <li class="col-md-4 list--block-dark-blue">
-                        <h3>Government and <br class="">Public Services</h3>
+                        <h3>Private <br class="">Companies</h3>
                         <p>
-                            We deliver digital projects for both central and local government departments supporting wider digital transformation programmes. Our services are available on the digital marketplace. <br>
-                            <!-- <a href="/government-and-public-services" class="btn btn-primary">Find out more</a> -->
+                            We offer a range of digital services for private companies supporting micro businesses through to large scale organisations we know how to seek and deliver real return on investment. <br>
+                            <!-- <a href="/public-and-private-companies" class="btn btn-primary">Find out more</a> -->
                         </p>
                     </li>
                     <li class="col-md-4 list--block-green">
-                        <h3>Public and Private <br class="">Companies</h3>
+                    <h3>Government and <br class="">Public Services</h3>
                         <p>
-                            We offer a range of digital services for public and private companies supporting micro businesses through to large scale organisations we know how to seek and deliver real return on investment. <br>
-                            <!-- <a href="/public-and-private-companies" class="btn btn-primary">Find out more</a> -->
+                            We deliver digital projects for both central and local government departments supporting wider digital transformation programmes. Our services are available on the digital marketplace. <br>
+                            <!-- <a href="/government-and-public-services" class="btn btn-primary">Find out more</a> -->
                         </p>
                     </li>
                     <li class="col-md-4 list--block-blue">
